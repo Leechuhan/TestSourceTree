@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF206AFB22641DD600733CB5 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF206AFA22641DD600733CB5 /* NotificationCenter.framework */; };
+		BF206AFE22641DD600733CB5 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF206AFD22641DD600733CB5 /* TodayViewController.swift */; };
+		BF206B0122641DD600733CB5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF206AFF22641DD600733CB5 /* MainInterface.storyboard */; };
+		BF206B0C226424B200733CB5 /* Code-39-Logitogo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF206B0A226424B200733CB5 /* Code-39-Logitogo.ttf */; };
+		BF206B0F226424C600733CB5 /* Code39-hoch-Logitogo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF206B0D226424C600733CB5 /* Code39-hoch-Logitogo.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		076D4A3860B1DD0F79B26D79 /* Pods-ScanTicket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanTicket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScanTicket/Pods-ScanTicket.debug.xcconfig"; sourceTree = "<group>"; };
+		1DBB3FDEE41019834AE06FD0 /* Pods-ScanTicket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanTicket.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScanTicket/Pods-ScanTicket.release.xcconfig"; sourceTree = "<group>"; };
+		1F760FB218E46ED1AF22E8AA /* Pods_ScanTicket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanTicket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1488BE22607FDB0028F0DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF1488C02260882C0028F0DB /* SmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsViewController.swift; sourceTree = "<group>"; };
+		BF1488C222615C4E0028F0DB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BF206AF922641DD600733CB5 /* BarcodeWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BarcodeWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF206AFA22641DD600733CB5 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		BF206AFD22641DD600733CB5 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		BF206B0022641DD600733CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		BF206B0222641DD600733CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF206B0A226424B200733CB5 /* Code-39-Logitogo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Code-39-Logitogo.ttf"; sourceTree = "<group>"; };
+		BF206B0D226424C600733CB5 /* Code39-hoch-Logitogo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Code39-hoch-Logitogo.ttf"; sourceTree = "<group>"; };
+		BF3ABE102249EAD300DFAE8E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BF3ABE14224B062F00DFAE8E /* ScanTicket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScanTicket.entitlements; sourceTree = "<group>"; };
+		BF3ABE15224B0D5C00DFAE8E /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		BF3ABE17224B3B0500DFAE8E /* TicketNumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketNumViewController.swift; sourceTree = "<group>"; };
+		BF5C2EA4224DF17800ADE474 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BF78877F2251E74D00E0FF67 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		BF7E0555225ECE8A000CEF95 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		BF7E0B00224531A100BBBA84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF7E0B02224531A100BBBA84 /* ScanTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTicketViewController.swift; sourceTree = "<group>"; };
+		BF7E0B08224531A100BBBA84 /* ScanTicket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScanTicket.xcdatamodel; sourceTree = "<group>"; };
+		BF7E0B0A224531A600BBBA84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF7E0B0D224531A600BBBA84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF7E0B0F224531A600BBBA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF81FABC22533DFB003EB952 /* PubFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubFunc.swift; sourceTree = "<group>"; };
+		BF81FABE2253AC57003EB952 /* TicketInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketInfoTableViewCell.swift; sourceTree = "<group>"; };
+		BF84706B224C8D7D00BB4773 /* KeyinTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyinTicketViewController.swift; sourceTree = "<group>"; };
+		BF84706D224C8D8E00BB4773 /* TicketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketListViewController.swift; sourceTree = "<group>"; };
+		BF8B1629225AC1CD00826516 /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8B162B225AC1CD00826516 /* FacebookCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FacebookCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8B162D225AC1CD00826516 /* FacebookLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FacebookLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8B162F225AC1CD00826516 /* FacebookShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FacebookShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8B1631225ADB7D00826516 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8B1633225ADB7D00826516 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8B1635225ADB7D00826516 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD0677422642B66009EB3FA /* BarcodeWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BarcodeWidget.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF206AF622641DD600733CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF206AFB22641DD600733CB5 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91BB46643440F7C0034AA1E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF8B1631225ADB7D00826516 /* FBSDKCoreKit.framework */,
+				BF8B1633225ADB7D00826516 /* FBSDKLoginKit.framework */,
+				BF8B1635225ADB7D00826516 /* FBSDKShareKit.framework */,
+				BF8B1629225AC1CD00826516 /* Bolts.framework */,
+				BF8B162B225AC1CD00826516 /* FacebookCore.framework */,
+				BF8B162D225AC1CD00826516 /* FacebookLogin.framework */,
+				BF8B162F225AC1CD00826516 /* FacebookShare.framework */,
+				BF3ABE15224B0D5C00DFAE8E /* CloudKit.framework */,
+				1F760FB218E46ED1AF22E8AA /* Pods_ScanTicket.framework */,
+				BF206AFA22641DD600733CB5 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF206AFC22641DD600733CB5 /* BarcodeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				BFD0677422642B66009EB3FA /* BarcodeWidget.entitlements */,
+				BF206AFD22641DD600733CB5 /* TodayViewController.swift */,
+				BF206AFF22641DD600733CB5 /* MainInterface.storyboard */,
+				BF206B0222641DD600733CB5 /* Info.plist */,
+			);
+			path = BarcodeWidget;
+			sourceTree = "<group>";
+		};
+		BF7E0AF4224531A100BBBA84 = {
+			isa = PBXGroup;
+			children = (
+				BF7E0AFF224531A100BBBA84 /* ScanTicket */,
+				BF206AFC22641DD600733CB5 /* BarcodeWidget */,
+				BF7E0AFE224531A100BBBA84 /* Products */,
+				F9CEC792F4CA671C36E4BC05 /* Pods */,
+				91BB46643440F7C0034AA1E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF7E0AFE224531A100BBBA84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF206AF922641DD600733CB5 /* BarcodeWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF7E0AFF224531A100BBBA84 /* ScanTicket */ = {
+			isa = PBXGroup;
+			children = (
+				BFCD0B5C2265B363006B17AB /* New Group */,
+				BF3ABE14224B062F00DFAE8E /* ScanTicket.entitlements */,
+				BF7E0B00224531A100BBBA84 /* AppDelegate.swift */,
+				BF5C2EA4224DF17800ADE474 /* LoginViewController.swift */,
+				BF3ABE102249EAD300DFAE8E /* HomeViewController.swift */,
+				BF7E0B02224531A100BBBA84 /* ScanTicketViewController.swift */,
+				BF84706B224C8D7D00BB4773 /* KeyinTicketViewController.swift */,
+				BF84706D224C8D8E00BB4773 /* TicketListViewController.swift */,
+				BF81FABE2253AC57003EB952 /* TicketInfoTableViewCell.swift */,
+				BF3ABE17224B3B0500DFAE8E /* TicketNumViewController.swift */,
+				BF1488C02260882C0028F0DB /* SmsViewController.swift */,
+				BF78877F2251E74D00E0FF67 /* Config.swift */,
+				BF81FABC22533DFB003EB952 /* PubFunc.swift */,
+				BF7E0555225ECE8A000CEF95 /* LoadingViewController.swift */,
+				BF7E0B0A224531A600BBBA84 /* Assets.xcassets */,
+				BF1488C222615C4E0028F0DB /* Main.storyboard */,
+				BF7E0B0C224531A600BBBA84 /* LaunchScreen.storyboard */,
+				BF7E0B0F224531A600BBBA84 /* Info.plist */,
+				BF1488BE22607FDB0028F0DB /* GoogleService-Info.plist */,
+				BF7E0B07224531A100BBBA84 /* ScanTicket.xcdatamodeld */,
+				BF206B0A226424B200733CB5 /* Code-39-Logitogo.ttf */,
+				BF206B0D226424C600733CB5 /* Code39-hoch-Logitogo.ttf */,
+			);
+			path = ScanTicket;
+			sourceTree = "<group>";
+		};
+		BFCD0B5C2265B363006B17AB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		F9CEC792F4CA671C36E4BC05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				076D4A3860B1DD0F79B26D79 /* Pods-ScanTicket.debug.xcconfig */,
+				1DBB3FDEE41019834AE06FD0 /* Pods-ScanTicket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF206AF822641DD600733CB5 /* BarcodeWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF206B0822641DD600733CB5 /* Build configuration list for PBXNativeTarget "BarcodeWidget" */;
+			buildPhases = (
+				BF206AF522641DD600733CB5 /* Sources */,
+				BF206AF622641DD600733CB5 /* Frameworks */,
+				BF206AF722641DD600733CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarcodeWidget;
+			productName = BarcodeWidget;
+			productReference = BF206AF922641DD600733CB5 /* BarcodeWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF7E0AF5224531A100BBBA84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = louis;
+				TargetAttributes = {
+					BF206AF822641DD600733CB5 = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BF7E0AF8224531A100BBBA84 /* Build configuration list for PBXProject "ScanTicket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF7E0AF4224531A100BBBA84;
+			productRefGroup = BF7E0AFE224531A100BBBA84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF206AF822641DD600733CB5 /* BarcodeWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF206AF722641DD600733CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF206B0F226424C600733CB5 /* Code39-hoch-Logitogo.ttf in Resources */,
+				BF206B0122641DD600733CB5 /* MainInterface.storyboard in Resources */,
+				BF206B0C226424B200733CB5 /* Code-39-Logitogo.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF206AF522641DD600733CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF206AFE22641DD600733CB5 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF206AFF22641DD600733CB5 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF206B0022641DD600733CB5 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		BF7E0B0C224531A600BBBA84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7E0B0D224531A600BBBA84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF206B0622641DD600733CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BarcodeWidget/BarcodeWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3X7X6WG69;
+				INFOPLIST_FILE = BarcodeWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.pixnet.leechuhan.scanticket.BarcodeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BF206B0722641DD600733CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BarcodeWidget/BarcodeWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3X7X6WG69;
+				INFOPLIST_FILE = BarcodeWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.pixnet.leechuhan.scanticket.BarcodeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BF7E0B10224531A600BBBA84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF7E0B11224531A600BBBA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF206B0822641DD600733CB5 /* Build configuration list for PBXNativeTarget "BarcodeWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF206B0622641DD600733CB5 /* Debug */,
+				BF206B0722641DD600733CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7E0AF8224531A100BBBA84 /* Build configuration list for PBXProject "ScanTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7E0B10224531A600BBBA84 /* Debug */,
+				BF7E0B11224531A600BBBA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF7E0B07224531A100BBBA84 /* ScanTicket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF7E0B08224531A100BBBA84 /* ScanTicket.xcdatamodel */,
+			);
+			currentVersion = BF7E0B08224531A100BBBA84 /* ScanTicket.xcdatamodel */;
+			path = ScanTicket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF7E0AF5224531A100BBBA84 /* Project object */;
+}

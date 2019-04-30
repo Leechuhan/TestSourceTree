@@ -1,0 +1,6 @@
+framework module Pods_ScanTicket {
+  umbrella header "Pods-ScanTicket-umbrella.h"
+
+  export *
+  module * { export * }
+}
